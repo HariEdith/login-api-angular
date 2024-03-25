@@ -7,7 +7,7 @@ import { User } from './user';
   providedIn: 'root'
 })
 export class AuthService {
-  private baseUrl = 'http://localhost:8080/api/users'; // Change this to your backend API URL
+  private baseUrl = 'http://localhost:8080/api/users';
 
   constructor(private http: HttpClient) { }
 
